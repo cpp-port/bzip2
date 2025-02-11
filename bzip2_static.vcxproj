@@ -264,11 +264,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.30128.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='cover|Win32'">$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='cover|Win32'">$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\..\..\time\intermediate\$(PlatformName)\$(Configuration)\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(SolutionDir)..\..\..\time\intermediate\$(PlatformName)\$(Configuration)\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='cover|Win32'">$(SolutionDir)..\..\..\time\intermediate\$(PlatformName)\$(Configuration)\$(ProjectName)\</IntDir>
@@ -284,11 +284,11 @@
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='cover|Win32'">false</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">false</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'">$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='cover|x64'">$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'">$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'">$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='cover|x64'">$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'">$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\..\..\time\intermediate\$(PlatformName)\$(Configuration)\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'">$(SolutionDir)..\..\..\time\intermediate\$(PlatformName)\$(Configuration)\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='cover|x64'">$(SolutionDir)..\..\..\time\intermediate\$(PlatformName)\$(Configuration)\$(ProjectName)\</IntDir>
@@ -504,7 +504,7 @@
       <SDLCheck>true</SDLCheck>
       <UseFullPaths>true</UseFullPaths>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <ProgramDataBaseFileName>$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -583,7 +583,7 @@
       <SDLCheck>true</SDLCheck>
       <UseFullPaths>true</UseFullPaths>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <ProgramDataBaseFileName>$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -648,7 +648,7 @@
       <UseFullPaths>true</UseFullPaths>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <ProgramDataBaseFileName>$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <OpenMPSupport>false</OpenMPSupport>
     </ClCompile>
@@ -716,7 +716,7 @@
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <ProgramDataBaseFileName>$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <OpenMPSupport>false</OpenMPSupport>
     </ClCompile>
@@ -790,7 +790,7 @@
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <ProgramDataBaseFileName>$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <OpenMPSupport>false</OpenMPSupport>
     </ClCompile>
@@ -879,7 +879,7 @@
       <SDLCheck>true</SDLCheck>
       <UseFullPaths>true</UseFullPaths>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <ProgramDataBaseFileName>$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -961,7 +961,7 @@
       <SDLCheck>true</SDLCheck>
       <UseFullPaths>true</UseFullPaths>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <ProgramDataBaseFileName>$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1029,7 +1029,7 @@
       <UseFullPaths>true</UseFullPaths>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <ProgramDataBaseFileName>$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <OpenMPSupport>false</OpenMPSupport>
     </ClCompile>
@@ -1099,7 +1099,7 @@
       <AdditionalOptions />
       <UseFullPaths>true</UseFullPaths>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <ProgramDataBaseFileName>$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <OpenMPSupport>false</OpenMPSupport>
     </ClCompile>
@@ -1172,7 +1172,7 @@
       </AdditionalOptions>
       <UseFullPaths>true</UseFullPaths>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <ProgramDataBaseFileName>$(SolutionDir)..\..\..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(SolutionDir)..\..\operating_system\storage-windows\$(PlatformName)\$(Configuration)\third\library\$(ProjectName).pdb</ProgramDataBaseFileName>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <OpenMPSupport>false</OpenMPSupport>
     </ClCompile>
