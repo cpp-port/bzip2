@@ -747,8 +747,7 @@
       <ImageHasSafeExceptionHandlers>true</ImageHasSafeExceptionHandlers>
     </Link>
     <PreBuildEvent>
-      <Command>
-      </Command>
+      <Command> </Command>
     </PreBuildEvent>
     <PreLinkEvent>
       <Command>
@@ -982,8 +981,7 @@
       <ImageHasSafeExceptionHandlers>true</ImageHasSafeExceptionHandlers>
     </Link>
     <PreBuildEvent>
-      <Command>
-      </Command>
+      <Command> </Command>
     </PreBuildEvent>
     <PreLinkEvent>
       <Command>
@@ -1215,8 +1213,7 @@
       </ImageHasSafeExceptionHandlers>
     </Link>
     <PreBuildEvent>
-      <Command>
-      </Command>
+      <Command> </Command>
     </PreBuildEvent>
     <PreLinkEvent>
       <Command>
@@ -1294,8 +1291,7 @@
       </ImageHasSafeExceptionHandlers>
     </Link>
     <PreBuildEvent>
-      <Command>
-      </Command>
+      <Command> </Command>
     </PreBuildEvent>
     <PreLinkEvent>
       <Command>
@@ -1694,8 +1690,7 @@
       </ImageHasSafeExceptionHandlers>
     </Link>
     <PreBuildEvent>
-      <Command>
-      </Command>
+      <Command> </Command>
     </PreBuildEvent>
     <PreLinkEvent>
       <Command>
@@ -1777,8 +1772,7 @@
       </ImageHasSafeExceptionHandlers>
     </Link>
     <PreBuildEvent>
-      <Command>
-      </Command>
+      <Command> </Command>
     </PreBuildEvent>
     <PreLinkEvent>
       <Command>
